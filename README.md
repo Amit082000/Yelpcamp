@@ -1,6 +1,9 @@
 Yelpcamp is a web application built using Express, Ejs, Node.js, JavaScript, MongoDB, Bootstrap, Cloudinary, Mapbox, and deployed using Render.
 
 Table of Contents
+
+
+
 Overview
 Technologies Used
 Getting Started
@@ -11,7 +14,13 @@ Usage
 Deployment
 License
 
+
+
+
 Overview
+
+
+
 YelpCamp is a comprehensive web application designed for camping enthusiasts who are seeking to discover and share information about various camping locations. The platform allows users to explore a wide range of camping sites on a map, submit reviews, upload photos, and even edit or delete camping locations as needed. Here's an overview of the main features and functionalities of the YelpCamp project:
 
 User Registration and Authentication:
@@ -42,40 +51,77 @@ User Interaction and Community Engagement:
 Users can engage with the community by commenting on reviews, asking questions, and sharing their own insights about camping locations. This fosters a sense of community and encourages information sharing among camping enthusiasts.
 
 In essence, YelpCamp is a comprehensive platform that combines interactive maps, user-generated content, and social features to create a valuable resource for camping enthusiasts. Whether users are looking to explore new camping spots, share their experiences, or plan their next outdoor adventure, YelpCamp offers a user-friendly and engaging environment to fulfill these needs.
-...
+
+
+
 Technologies Used
-Express
-Ejs
-Node.js
-MongoDB
-Bootstrap
-Cloudinary
-Mapbox
+
+
+
+Express,
+Ejs,
+Node.js,
+MongoDB,
+Bootstrap,
+Cloudinary,
+Mapbox,
 Render
+
+
+
 Getting Started
 These instructions will help you set up the project on your local machine for development and testing purposes.
 
 Prerequisites
+
+
+
 Node.js:[https://nodejs.org/en/docs/guides/getting-started-guide]
+
+
+
+
+
 MongoDB: [https://www.mongodb.com/docs/manual/tutorial/getting-started/]
 
+
+
 Installation
-Clone the repository
-Navigate to the project directory
-Install dependencies: npm install
+
+
+
+Clone the repository.
+Navigate to the project directory.
+Install dependencies: npm install.
+
+
+
 Configuration
+
+
+
 Rename the .env.example file to .env.
 Open the .env file and set the required environment variables:
-DATABASE_URL: MongoDB connection string
-CLOUDINARY_CLOUD_NAME: Cloudinary cloud name
-CLOUDINARY_API_KEY: Cloudinary API key
-CLOUDINARY_API_SECRET: Cloudinary API secret
+DATABASE_URL: MongoDB connection string,
+CLOUDINARY_CLOUD_NAME: Cloudinary cloud name,
+CLOUDINARY_API_KEY: Cloudinary API key,
+CLOUDINARY_API_SECRET: Cloudinary API secret,
 MAPBOX_ACCESS_TOKEN: Mapbox access token
+
+
+
 Usage
-Start the development server: npm start
+
+
+
+
+Start the development server: npm start,
 Open your web browser and navigate to http://localhost:3000
 
 Deployment
+
+
+
 The project is deployed using Render. Follow these steps to deploy:
 
 Create a Render account
@@ -88,4 +134,7 @@ Deploy the project.
 
 ====================================================================================
 
+
+
 Link for website: https://india-yelpcamp.onrender.com
+
